@@ -86,7 +86,7 @@ for (let i=0; i<6 ;i++) {
 
   if (check===1){break;}
 }
-alert ('all true answers '+ 'red ' + 'white ' +'mouve');
+alert ('all true answers '+ paint);
 
 alert ('so your score out of 7 is ' +score);
 
