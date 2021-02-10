@@ -72,13 +72,15 @@ alert ('my old is 27 ');
 
 let paint=['red','white','mouve'];
 console.log (paint);
-let favColor=prompt('enter my fav color ');
-favColor=favColor.toLowerCase();
+let favColor;
+
 let check;
-for (let i=0; i<5 ;i++) {
+for (let j=0; j<6 ;j++) {
+  favColor=prompt('enter my fav color ');
+  favColor=favColor.toLowerCase();
   check=0;
   // eslint-disable-next-line no-empty
-  for (let index =0 ;index<3 ;index++){
+  for (let index =0 ;index<paint.length ;index++){
     if (paint[index]===favColor){alert('true one');
       score++;
       check++;
