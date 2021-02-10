@@ -48,13 +48,13 @@ if (delecious.toLowerCase() === 'y' || mySituation.toLowerCase() === 'yes' )
 {
   // console.log (delecious)
   alert( 'good answer ');
-  score++
-}
+  score++;}
+
 else { alert('its wrong you dont know me !');}
 
 let age= prompt( 'what is my age ?');
 
-for (let i=0; i < 4 ; i++) {
+for (let i=1; i < 4 ; i++) {
   age=parseInt(age);
   if (age === 27 ){
     alert ('thats true');
@@ -74,7 +74,7 @@ let paint=['red','white','mouve'];
 console.log (paint);
 let favColor=prompt('enter my fav color ');
 favColor=favColor.toLowerCase();
-for (let i=0; i<6 ;i++) {
+for (let i=1; i<6 ;i++) {
   let check=0;
   // eslint-disable-next-line no-empty
   for (let index =0 ;index<3 ;index++){
