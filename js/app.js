@@ -74,8 +74,9 @@ let paint=['red','white','mouve'];
 console.log (paint);
 let favColor=prompt('enter my fav color ');
 favColor=favColor.toLowerCase();
-for (let i=1; i<6 ;i++) {
-  let check=0;
+let check;
+for (let i=0; i<5 ;i++) {
+  check=0;
   // eslint-disable-next-line no-empty
   for (let index =0 ;index<3 ;index++){
     if (paint[index]===favColor){alert('true one');
