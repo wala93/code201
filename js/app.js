@@ -5,11 +5,11 @@ let score=0;
 let userName = prompt ('whats your name please ' + ' name');
 alert ('welcom in my guessing game ' + userName );
 
+
 function yourName(){
   let myName = prompt( 'my name is Walaa ,do you agree thats true ?' + 'y/n');
   if ( myName.toLowerCase() === 'y' || myName.toLowerCase() ==='yes')
   {
-  // console.log ( myName)
     alert ('true answer ,good ');
     score++;
   }
@@ -18,6 +18,7 @@ function yourName(){
 
 }
 yourName();
+
 
 function major(){
   let myMajor = prompt ('Am I  a civil engineer  '+ 'y/n');
@@ -48,6 +49,7 @@ function situation(){
 situation();
 
 
+
 function attend(){
   let campus = prompt ('do I prefer to be in campus?' + 'y/n');
 
@@ -70,7 +72,6 @@ function favDish(){
 
   if (delecious.toLowerCase() === 'y' || delecious.toLowerCase() === 'yes' )
   {
-  // console.log (delecious)
     alert( 'good answer ');
     score++;}
 
@@ -125,7 +126,8 @@ function guessColor(){
 }
 guessColor();
 
-//for demo
+
 alert ('so your score out of 7 is ' +score);
 
 alert ('thank you alot ' + userName);
+

@@ -1,10 +1,18 @@
-h1 { color: cornsilk;} 
-header { background-color: darkgreen;}
-main { background-color: darkgrey;}
-footer { background-color: darkolivegreen;}
-img { width: 300px ; height: 250px;}
+h1 { color: cornsilk;text-align: center;position: relative;} 
+header { background-color:darkgreen;  display: block; height: 2.5cm;margin: 0%;}
+main {margin-top: .5cm; background-color:darkgray;}
+footer { background-color: darkgreen;}
+img { width: 300px ; height: 250px;position: relative;margin-left: 4cm;border: rgb(63, 87, 167);}
 body { background-color: rgb(241, 236, 236);}
-header nav p { font-size: medium; color: thistle}
-* { margin:.2cm}
+header nav p { font-size: medium; color: ivory ;text-align: center;font-weight: bold;position: relative }
+/* * { margin:.2cm}*/
+
 footer {height: 2.5cm}
-#p2 { color: white; margin: .5cm ; margin-top: .5cm}
+#p2 { color: white;  margin-top: .5cm ;}
+ h3,h2{color: rgb(53, 4, 4);font-weight:bolder ; font-size: .75cm;margin-left: .5cm;}
+ .resume  {color: rgb(53, 4, 4);}
+ .topten {color: rgb(53,4,4);}
+ .topten {font-weight: bolder ;}
+ .topten li {margin-left: .75cm;}
+ #p2 {padding-top:1cm ;text-align: center;} 
+ ol {padding-bottom: .75cm;}

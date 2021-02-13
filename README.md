@@ -12,3 +12,5 @@ I was Navigator on :  https://github.com/wala93/code201/pull/1
 I was Driver on:https://github.com/duha253/Lab02-201/pull/1  
 ## pair programming :walaa alomari with duha yousef
 _____________________________________________________________________________________________
+##lab05c
+  add some CSS design 
